@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+.container{
+    width:100%;
+    padding-left:15px;
+    padding-right:15px;
+ margin-right:auto;
+ margin-left: auto;
+}
+body{
+    background: linear-gradient(to right, silver, silver, rgb(151,40,40));
+}
+.section{
+    padding:30px;
+    border-radius: 6px;
+    margin:auto ;
+    width: 83%;
+    height: 700px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.left-section{
+    background: url('../img/black.jpg');
+   box-shadow: 3px 4px 40px silver;
+
+
+}
+
+.right-section{
+    background: url(../img/girl.jpg);
+    box-shadow: 4px 4px 40px rgb(44,19,19);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h2{
+    font-family: Roboto , sans-serif;
+}
+
+h4{
+    font-family: roboto, sans-serif;
+}
+
+ul{
+    color: black;
+    list-style:none;
+    display:flex;
+    padding:17px;
+    font-weight:bold;
+    font-family: Roboto, sans-serif;
+}
+
+ul li{
+    padding:10px;
+}
+
+.l-text{
+    color: white;
+    padding:20px;
+    text-align:left;
+    float: left;
+    margin-left: 30px;
+    font-weight: lighter;
+    font-family: Open Sans, Arial;
+}
+
+.r-text{
+    color:white;
+    text-align: right;
+    padding:20px;
+    float:right;
+    cursor: pointer;
+    }
+
+    h5{
+        text-align:center;
+        margin-top:-20px;
+        font-size:16px;
+        color: silver;
+        font-weight: lighter;
+    }
+
+    .content{
+        margin:auto;
+        padding:50px;
+    }
+
+    h1{
+        color:white;
+        font-size:60px;
+        width:500px;
+        margin-top: -20px;
+        margin-top: 200px;
+        font-family: Roboto, sans-serif;
+    }
+
+    small{
+        color: silver;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .button{
+        border: 1px solid silver;
+        color:silver;
+        padding:12px;
+        border-radius:20px;
+    }
